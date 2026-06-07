@@ -12,6 +12,12 @@ Install-MUSILAND-Monitor01US-Win11.cmd
 MlCyMon_2.4.2.1_build20131204.exe
 ```
 
+原厂旧站下载位置：
+
+```text
+https://www-old.musiland.cn/index.php/Download/get_file/id/77
+```
+
 脚本会自动提取原厂 payload，然后依次安装 firmware、bus、audio 驱动，以及原厂控制面板和 `MlCyMonSvc` 服务。
 
 如果驱动已经正常，只是耳机口没有声音，可以只双击运行：

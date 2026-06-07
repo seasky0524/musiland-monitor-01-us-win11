@@ -1,10 +1,10 @@
 # MUSILAND Monitor 01 US Windows 11 一键安装脚本
 
-这个仓库用于让老款 `MUSILAND Monitor 01 US` USB 声卡在 Windows 11 上继续使用，也适用于搜索 `乐之邦 Monitor 01 US`、`MUSILAND Monitor Series(USB)`、`MlCyMon`、`MUAUDIO`、`Win11 USB Audio Driver` 等关键词的用户。
+这个仓库用于让老款 `MUSILAND Monitor 01 US` USB 声卡在 Windows 11 上继续使用，也适用于搜索 `乐之邦 Monitor 01 US`、`MUSILAND Monitor Series(USB)`、`MlCyMon`、`MUAUDIO`、`Win11 USB Audio Driver`、`驱动` 等关键词的用户。
 
 ## 搜索关键词
 
-`MUSILAND Monitor 01 US` / `乐之邦 Monitor 01 US` / `MUSILAND Monitor Series USB` / `Windows 11 driver` / `Win11 x64` / `USB Audio Driver` / `MlCyMon` / `MlCyMonBus` / `MlCyMonSvc` / `MUAUDIO` / `USB\VID_04B4&PID_5135` / `USB\VID_04B4&PID_5125` / `ASIO` / `WASAPI` / `DirectSound` / `QQ音乐切歌无声`
+`MUSILAND Monitor 01 US` / `乐之邦 Monitor 01 US` / `MUSILAND Monitor Series USB` / `Windows 11 driver` / `Win11 x64` / `USB Audio Driver` / `驱动` / `声卡驱动` / `MlCyMon` / `MlCyMonBus` / `MlCyMonSvc` / `MUAUDIO` / `USB\VID_04B4&PID_5135` / `USB\VID_04B4&PID_5125` / `ASIO` / `WASAPI` / `DirectSound` / `QQ音乐切歌无声`
 
 已验证的设备链路：
 
@@ -19,6 +19,12 @@
 
 ```text
 MlCyMon_2.4.2.1_build20131204.exe
+```
+
+原厂旧站下载位置：
+
+```text
+https://www-old.musiland.cn/index.php/Download/get_file/id/77
 ```
 
 把这个 EXE 放到本仓库目录下，再运行一键安装脚本。脚本会从原厂 EXE 中自动提取 x64 MSI/CAB、准备驱动文件、安装驱动、安装原厂控制面板和 `MlCyMonSvc` 服务。
