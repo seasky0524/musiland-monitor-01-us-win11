@@ -1,0 +1,38 @@
+# Vendor binaries and extracted payloads
+MlCyMon_2.4.2.1_build20131204.exe
+MlCyMon_2.4.2.1_build20131204.carved.cab
+MlCyMon_2.4.2.1_build20131204/
+prepared-driver/
+downloaded-*/
+downloaded-full-installer/
+extracted-full-installer/
+win11-inbox-kmdf/
+
+# Driver/package binaries
+*.cab
+*.cat
+*.dll
+*.exe
+*.inf
+*.msi
+*.PNF
+*.sys
+*.tmp
+*.zip
+
+# Logs and local diagnostics
+*.log
+*.log.exit
+*.etl
+*.evtx
+Cleanup-TestSigningArtifacts.ps1
+Get-AudioEndpointStatus.ps1
+Get-MUSILANDDeviceIds.ps1
+Install-OriginalSigned.ps1
+Run-CleanupTestSigningArtifactsAsAdmin.ps1
+Run-InstallOriginalSignedAsAdmin.ps1
+Set-MUSILAND-MixerMax.ps1
+Test-MUSILAND-WaveOut.ps1
+
+# Keep command wrappers even though *.exe is ignored.
+!*.cmd
