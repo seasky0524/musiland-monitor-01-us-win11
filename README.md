@@ -1,6 +1,10 @@
 # MUSILAND Monitor 01 US Windows 11 一键安装脚本
 
-这个仓库用于让老款 `MUSILAND Monitor 01 US` USB 声卡在 Windows 11 上继续使用。
+这个仓库用于让老款 `MUSILAND Monitor 01 US` USB 声卡在 Windows 11 上继续使用，也适用于搜索 `乐之邦 Monitor 01 US`、`MUSILAND Monitor Series(USB)`、`MlCyMon`、`MUAUDIO`、`Win11 USB Audio Driver` 等关键词的用户。
+
+## 搜索关键词
+
+`MUSILAND Monitor 01 US` / `乐之邦 Monitor 01 US` / `MUSILAND Monitor Series USB` / `Windows 11 driver` / `Win11 x64` / `USB Audio Driver` / `MlCyMon` / `MlCyMonBus` / `MlCyMonSvc` / `MUAUDIO` / `USB\VID_04B4&PID_5135` / `USB\VID_04B4&PID_5125` / `ASIO` / `WASAPI` / `DirectSound` / `QQ音乐切歌无声`
 
 已验证的设备链路：
 
